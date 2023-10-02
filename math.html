@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Page</title>    
+</head>
+<body>
+    <h1>This is the math page!</h1>    
+
+    <form action="/action_page.php">
+        <label for="levels">Choose your level:</label>
+        <select name="levels" id="levels" onchange="changeLevel()">
+          <option value="level1">Level 1</option>          
+          <option value="level2">Level 2</option>          
+          <option value="level3">Level 3</option>          
+          <option value="level4">Level 4</option>          
+          <option value="level5">Level 5</option>          
+          <option value="level6">Level 6</option>                    
+        </select>
+      </form>
+      <hr />
+
+      <div id="problems">
+
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>
